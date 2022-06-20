@@ -1,10 +1,11 @@
 #!bin/bash
 
-mkdir file
+touch "`date`".txt
 
-cd file
-touch `date`
-cd ..
-sh commit.sh
-rm -rf file
-sh commit.sh
+echo `date` >> *.txt
+
+commit.sh
+
+rm -f *.txt
+
+commit.sh
