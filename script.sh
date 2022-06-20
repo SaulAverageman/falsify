@@ -4,8 +4,7 @@ touch "`date`".txt
 
 echo `date` >> *.txt
 
-commit.sh
+sleep 3
 
-rm -f *.txt
+sh commit.sh
 
-commit.sh
