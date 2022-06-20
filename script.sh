@@ -1,7 +1,5 @@
 #!bin/bash
 
-touch "`date`".txt
-
 echo `date` >> *.txt
 
 sleep 3
