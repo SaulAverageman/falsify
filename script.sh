@@ -2,7 +2,7 @@
 
 git checkout 2d
 
-echo `date` >> *.txt
+echo `date` > *.txt
 
 sleep 3
 
